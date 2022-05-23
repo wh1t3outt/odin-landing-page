@@ -1,1 +1,1 @@
-# odin-landing-page
+My second project for The Odin Project entails creating a decent looking website utilizing skills including CSS, HTML, and Flexbox.
