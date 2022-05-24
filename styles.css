@@ -92,7 +92,7 @@ ul.headerlinks {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 125px;
 }
 
 .infoheader {
@@ -125,4 +125,26 @@ ul.headerlinks {
     font-size: 14px;
     color: gray;
     margin-top: 20px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 200px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    
+}
+
+.quotecreds {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 75px;
 }
