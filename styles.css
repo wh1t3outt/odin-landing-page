@@ -185,3 +185,10 @@ ul.headerlinks {
    
 }
 
+.footer {
+    background-color: #1F2937;
+    padding: 50px;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 20px;
+}
