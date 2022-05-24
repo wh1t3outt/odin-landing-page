@@ -1,14 +1,128 @@
-.section1 .headerright .mainimage img {
-    width:100%;
-    width: 450px;
-    object-fit:cover;
-    object-position:50% 50%;
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+a, .subtext {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+
+ul.headerlinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding-top: 32px;
+}
+
+.section1 {
+    background-color: #1F2937;
+    display: flex;
 
 }
 
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 50px;
+}
+
+.headerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 100px;
+    padding: 20px;
+
+}
+
+.heading1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.headerright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+
+.section1 .headerright .mainimage img {
+    width: 100%;
+    object-fit:cover;
+    object-position:50% 50%;
+ 
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .section2 .container img {
-    width:100%;
+    width: 100%;
     width: 100px;
     object-fit:cover;
     object-position:50% 50%;
+}
+
+.infotext {
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
 }
