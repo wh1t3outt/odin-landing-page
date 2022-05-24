@@ -21,7 +21,7 @@ button {
     border-radius: 8px;
     color: #F9FAF8;
     font-size: 20px;
-    padding: 15px;
+    padding: 16px 24px;
     
 }
 
@@ -148,3 +148,40 @@ ul.headerlinks {
     margin-left: auto;
     margin-right: 75px;
 }
+
+.section4 {
+    padding: 100px;
+
+}
+
+.calltoactionbutton {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.calltoday {
+    margin-left: 125px;
+}
+
+.c2asub {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+
+.signupbutton2 {
+    margin-right: 125px;
+    text-align: center;
+    color: #F9FAF8;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+   
+}
+
